@@ -1,0 +1,4 @@
+SELECT *
+FROM teachers
+WHERE id = 3
+LOCK IN SHARE MODE;
